@@ -2,7 +2,7 @@
 
 # C++ Boilerplate v2 Badges
 <!-- ![CICD Workflow status](https://github.com/KshitijKarnawat/testdrivendevlopment/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg) -->
-[![codecov](https://codecov.io/gh/KshitijKarnawat/testdrivendevlopment/branch/main/graph/badge.svg)](https://codecov.io/gh/KshitijKarnawat/testdrivendevlopment) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![codecov](https://codecov.io/gh/KshitijKarnawat/testdrivendevlopment/branch/main/graph/badge.svg)](https://codecov.io/gh/KshitijKarnawat/testdrivendevlopment) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ### Part 1
 
