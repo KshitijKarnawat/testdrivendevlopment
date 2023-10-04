@@ -1,0 +1,7 @@
+add_test( dummy_test.this_should_pass [==[/home/nova/umd/Fall 2023/ENPM808X/testdrivendevelopment/build/test/cpp-test]==] [==[--gtest_filter=dummy_test.this_should_pass]==] --gtest_also_run_disabled_tests)
+set_tests_properties( dummy_test.this_should_pass PROPERTIES WORKING_DIRECTORY [==[/home/nova/umd/Fall 2023/ENPM808X/testdrivendevelopment/build/test]==])
+add_test( dummy_test.this_should_pass_too [==[/home/nova/umd/Fall 2023/ENPM808X/testdrivendevelopment/build/test/cpp-test]==] [==[--gtest_filter=dummy_test.this_should_pass_too]==] --gtest_also_run_disabled_tests)
+set_tests_properties( dummy_test.this_should_pass_too PROPERTIES WORKING_DIRECTORY [==[/home/nova/umd/Fall 2023/ENPM808X/testdrivendevelopment/build/test]==])
+add_test( dummy_test.this_will_fail [==[/home/nova/umd/Fall 2023/ENPM808X/testdrivendevelopment/build/test/cpp-test]==] [==[--gtest_filter=dummy_test.this_will_fail]==] --gtest_also_run_disabled_tests)
+set_tests_properties( dummy_test.this_will_fail PROPERTIES WORKING_DIRECTORY [==[/home/nova/umd/Fall 2023/ENPM808X/testdrivendevelopment/build/test]==])
+set( cpp-test_TESTS dummy_test.this_should_pass dummy_test.this_should_pass_too dummy_test.this_will_fail)
