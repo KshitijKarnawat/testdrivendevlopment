@@ -1,7 +1,8 @@
-#include <gtest/gtest.h>
 #include "pidcontroller.hpp"
+#include <gtest/gtest.h>
 
-TEST(dummy_test, this_should_pass) {
-  EXPECT_EQ(1, 1);
+TEST(pidcontroller, Test_Case_1) {
+  PIDController controller(1.0, 2.0, 3.0);
+  double error = 5.0;
+  EXPECT_DOUBLE_EQ(controller.calculate(error), 5.0);
 }
-
