@@ -1,8 +1,8 @@
-#include <iostream>
 #include "pidcontroller.hpp"
+#include <iostream>
 
 double PIDController::calculate(double error) {
-  double output;
+  double output = 0.0;
   return output;
 }
 
