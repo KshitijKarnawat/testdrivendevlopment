@@ -21,7 +21,7 @@ Simple starter C++ project with:
 ## Standard install via command-line
 ```bash
 # Download the code:
-  git clone https://github.com/TommyChangUMD/cpp-boilerplate-v2
+  git clone https://github.com/KshitijKarnawat/testdrivendevlopment
   cd cpp-boilerplate-v2
 # Configure the project and generate a native build system:
   # Must re-run this command whenever any CMakeLists.txt file has been changed.
