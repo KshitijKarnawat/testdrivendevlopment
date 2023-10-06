@@ -11,6 +11,12 @@ Driver: Kshitij Karnawat [Github](github.com/KshitijKarnawat)
 
 Navigator: Abhimanyu Saxena [Github](github.com/abhimanyu-saxena)
 
+## Part 2
+
+Solo Programmer:
+Name - Lowell Lobo
+GitHub User - lorocks
+
 ## Overview
 
 Simple starter C++ project with:
