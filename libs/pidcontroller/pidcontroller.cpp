@@ -2,23 +2,25 @@
 
 #include <iostream>
 
-double PIDController::calculate(double error) {
+double PIDController::Calculate(double error) {
   double output = 0.0;
-  std::cout << kp*error << std::endl;
-  std::cout << ki*integral(error) << std::endl;
-  std::cout << kd*derivative(error) << std::endl;
-  output = (kp*error) + (ki*integral(error)) + (kd*derivative(error));
-  previous_error = error;
+
+  std::cout << kp_*error << std::endl;
+  std::cout << ki_*Integral(error) << std::endl;
+  std::cout << kd_*Derivative(error) << std::endl;
+
+  output = (kp_*error) + (ki_*Integral(error)) + (kd_*Derivative(error));
+  previous_error_ = error;
   return output;
 }
 
-double PIDController::integral(double error) {
-  integral_ += error * dt;
+double PIDController::Integral(double error) {
+  integral_ += error * dt_;
   return integral_;
 }
 
-double PIDController::derivative(double error) {
+double PIDController::Derivative(double error) {
   double derivative;
-  derivative = (error - previous_error)/ dt;
+  derivative = (error - previous_error_)/ dt_;
   return derivative;
 }
