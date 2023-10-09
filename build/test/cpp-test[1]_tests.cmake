@@ -1,5 +1,0 @@
-add_test( pidcontroller.Test_Case_1 /home/lorocks/hw_folder/testdrivendevlopment/build/test/cpp-test [==[--gtest_filter=pidcontroller.Test_Case_1]==] --gtest_also_run_disabled_tests)
-set_tests_properties( pidcontroller.Test_Case_1 PROPERTIES WORKING_DIRECTORY /home/lorocks/hw_folder/testdrivendevlopment/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test( pidcontroller.Test_Case_2 /home/lorocks/hw_folder/testdrivendevlopment/build/test/cpp-test [==[--gtest_filter=pidcontroller.Test_Case_2]==] --gtest_also_run_disabled_tests)
-set_tests_properties( pidcontroller.Test_Case_2 PROPERTIES WORKING_DIRECTORY /home/lorocks/hw_folder/testdrivendevlopment/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set( cpp-test_TESTS pidcontroller.Test_Case_1 pidcontroller.Test_Case_2)
