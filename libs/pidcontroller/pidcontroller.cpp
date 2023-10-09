@@ -12,9 +12,8 @@ double PIDController::calculate(double error) {
 }
 
 double PIDController::integral(double error) {
-  double integral;
-  integral = error * dt;
-  return integral;
+  integral_ += error * dt;
+  return integral_;
 }
 
 double PIDController::derivative(double error) {

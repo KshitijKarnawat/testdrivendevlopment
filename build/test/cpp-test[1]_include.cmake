@@ -1,5 +1,5 @@
-if(EXISTS "/home/bmv/abhi/testdrivendevlopment/build/test/cpp-test[1]_tests.cmake")
-  include("/home/bmv/abhi/testdrivendevlopment/build/test/cpp-test[1]_tests.cmake")
+if(EXISTS "/home/lorocks/hw_folder/testdrivendevlopment/build/test/cpp-test[1]_tests.cmake")
+  include("/home/lorocks/hw_folder/testdrivendevlopment/build/test/cpp-test[1]_tests.cmake")
 else()
   add_test(cpp-test_NOT_BUILT cpp-test_NOT_BUILT)
 endif()
