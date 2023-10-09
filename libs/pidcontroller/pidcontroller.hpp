@@ -48,4 +48,5 @@ class PIDController {
 
   double dt = 0.01;
   double previous_error = 0.0;
+  double integral_ = 0.0;
 };

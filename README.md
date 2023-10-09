@@ -11,6 +11,17 @@ Driver: Kshitij Karnawat [Github](github.com/KshitijKarnawat)
 
 Navigator: Abhimanyu Saxena [Github](github.com/abhimanyu-saxena)
 
+## Part 2
+
+Solo Programmer:
+Name - Lowell Lobo
+GitHub User - lorocks
+
+## Discussion Notes
+1 - The unit tests had to be manually calculated and then compared with expected result
+<br>
+2 - EXPECT_DOUBLE_EQ did not work as intended thus EXPECT_NEAR had to be used
+
 ## Overview
 
 Simple starter C++ project with:
