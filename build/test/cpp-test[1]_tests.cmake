@@ -1,5 +1,0 @@
-add_test( pidcontroller.Test_Case_1 [==[/home/nova/umd/Fall 2023/ENPM808X/testdrivendevelopment/build/test/cpp-test]==] [==[--gtest_filter=pidcontroller.Test_Case_1]==] --gtest_also_run_disabled_tests)
-set_tests_properties( pidcontroller.Test_Case_1 PROPERTIES WORKING_DIRECTORY [==[/home/nova/umd/Fall 2023/ENPM808X/testdrivendevelopment/build/test]==])
-add_test( pidcontroller.Test_Case_2 [==[/home/nova/umd/Fall 2023/ENPM808X/testdrivendevelopment/build/test/cpp-test]==] [==[--gtest_filter=pidcontroller.Test_Case_2]==] --gtest_also_run_disabled_tests)
-set_tests_properties( pidcontroller.Test_Case_2 PROPERTIES WORKING_DIRECTORY [==[/home/nova/umd/Fall 2023/ENPM808X/testdrivendevelopment/build/test]==])
-set( cpp-test_TESTS pidcontroller.Test_Case_1 pidcontroller.Test_Case_2)
