@@ -1,0 +1,7 @@
+Done processing ./app/main.cpp
+./libs/pidcontroller/pidcontroller.cpp:1:  Include the directory when naming header files  [build/include_subdir] [4]
+Done processing ./libs/pidcontroller/pidcontroller.cpp
+Done processing ./test/main.cpp
+./test/test.cpp:3:  Include the directory when naming header files  [build/include_subdir] [4]
+Done processing ./test/test.cpp
+Total errors found: 2
